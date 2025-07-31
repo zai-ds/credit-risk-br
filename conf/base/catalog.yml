@@ -9,3 +9,33 @@ preprocessed_dataset:
   type: pandas.ParquetDataSet
   filepath: data/02_intermediate/preprocessed_dataset.parquet
   layer: intermediate
+
+X_train:
+  type: pandas.ParquetDataSet
+  filepath: data/05_model_input/X_train.parquet
+  layer: model_input
+
+X_test:
+  type: pandas.ParquetDataSet
+  filepath: data/05_model_input/X_test.parquet
+  layer: model_input
+
+y_train:
+  type: pandas.ParquetDataSet
+  filepath: data/05_model_input/y_train.parquet
+  layer: model_input
+
+y_test:
+  type: pandas.ParquetDataSet
+  filepath: data/05_model_input/y_test.parquet
+  layer: model_input
+
+model:
+  type: pickle.PickleDataSet
+  filepath: data/06_models/model.pkl
+  layer: models
+
+model_auc:
+  type: tracking.MetricsDataSet
+  filepath: data/08_reporting/model_auc.json
+  layer: reporting
