@@ -1,6 +1,8 @@
 raw_dataset:
   type: pandas.CSVDataSet
-  filepath: ${raw_data_path}
+  filepath: ${raw_data_path}/bankloan_data.csv
+  load_args:
+    encoding: latin1
   layer: raw
 
 preprocessed_dataset:
