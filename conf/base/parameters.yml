@@ -1,1 +1,2 @@
 raw_data_path: data/01_raw/bank_credit_dataset.csv
+target_column: default
