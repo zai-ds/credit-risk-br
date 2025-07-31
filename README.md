@@ -103,6 +103,8 @@ Este projeto foi desenvolvido por Gabriel Zaniboni como parte de um portfólio p
 [LinkedIn](https://www.linkedin.com/in/gabrielfz/) • [GitHub](https://github.com/zai-ds)
 
 ---
+## Disclaimer
+Este projeto é educacional e não representa decisões reais de crédito. Todos os dados foram anonimizados. As decisões de concessão de crédito devem envolver critérios éticos, legais e humanos.
 
 ## Organização do Projeto
 
