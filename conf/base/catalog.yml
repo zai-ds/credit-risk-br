@@ -1,0 +1,9 @@
+raw_dataset:
+  type: pandas.CSVDataSet
+  filepath: ${raw_data_path}
+  layer: raw
+
+preprocessed_dataset:
+  type: pandas.ParquetDataSet
+  filepath: data/02_intermediate/preprocessed_dataset.parquet
+  layer: intermediate
