@@ -39,3 +39,8 @@ model_auc:
   type: tracking.MetricsDataSet
   filepath: data/08_reporting/model_auc.json
   layer: reporting
+
+shap_values:
+  type: pandas.ParquetDataSet
+  filepath: data/08_reporting/shap_values.parquet
+  layer: reporting
