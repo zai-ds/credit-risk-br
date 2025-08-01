@@ -5,7 +5,10 @@ def create_pipeline(**kwargs) -> Pipeline:
     return pipeline([
         node(
             func=split_data,
-            inputs=dict(data="model_input_table", target_column="params:target_column"),
+            inputs=dict(
+                data="preprocessed_dataset",
+                target_column="params:target_column"
+            ),
             outputs=["X_train", "X_test", "y_train", "y_test"],
             name="split_data_node"
         ),
