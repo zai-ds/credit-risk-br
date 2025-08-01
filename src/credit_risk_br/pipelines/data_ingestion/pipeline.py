@@ -6,7 +6,7 @@ def create_pipeline(**kwargs) -> Pipeline:
     return pipeline(
         [
             node(
-                func=nodes.ingest_data,
+                func=nodes.load_raw_data,
                 inputs=None,
                 outputs="raw_dataset",
                 name="ingest_data_node",
